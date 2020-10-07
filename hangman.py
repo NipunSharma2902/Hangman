@@ -31,6 +31,7 @@ def hangman_game():
         if len(guess) > 1:
             break
         guesses += guess
+        # shhhhhhh....this is a comment
         if (guess not in word) and (guess not in guessed_word):
             turns -= 1
             guessed_word.append(guess)
